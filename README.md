@@ -1,27 +1,35 @@
-![](https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud5/media/image/fiercehealthcare/1570117826/shutterstock_1150637408.jpg?VersionId=eQO_ILyCwnuh4UhRlRtpBc_hEkQh3ueJ)
+# **Projeto: E-commerce Olist **
+<sub>Projeto desenvolvida por: **Natália Oliveira**</sub>
 
-# **Projeto de Análise de dados de vendas do Wallmart**  
-<sub>Análise desenvolvida por: **Natália Oliveira**</sub>
+## Sobre o projeto:
+O objetivo deste projeto é executar uma série de análises nos dados da plataforma brasileira de comércio eletrônico Olist. Essas análises serão divididas em etapas para uma melhor proposta de organização e análise.
 
+## Sobre os dados:
+Os dados disponíveis são de comércio eletrônico brasileiro feitos na loja Olist, contendo informações de 100 mil pedidos de 2016 a 2018, incluindo status do pedido, preço, pagamento, desempenho de frete, localização do cliente, atributos do produto e revisões escritas pelos clientes. Os dados são reais, mas foram anonimizados e as referências às empresas e parceiros foram substituídas por nomes de casas da série Game of Thrones. Também há um conjunto de dados de geolocalização que relaciona os códigos postais brasileiros às coordenadas LAT/LNG.
 
-## **Introdução**
+### Fonte dos Dados
 
-### Objetivo
+Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/code?select=olist_geolocation_dataset.csv
 
-#### Principais demandas: 
+### Esquema dos dados
+![](https://i.imgur.com/HRhd2Y0.png)
 
-Este projeto tem por objetivo:
+## **Análise 01:  Analisando os Consumidores**
+### Introdução
 
-* Descobrir padrões de comportamento de compra dos consumidores;
-* Identificar e segmentar os tipos de clientes com base em seus padrões de compra;
-* Identificar os clientes mais valiosos com base em seu valor de vida útil (LTV) e padrões de compra;
-* Identificar oportunidades de melhoria nas vendas, como promoções, ofertas personalizadas, recomendações de produtos, entre outras.
+**Objetivo**
+A finalidade desta análise é examinar os dados dos consumidores do E-commerce brasileiro Olist, com o intuito de identificar os padrões de comportamento de compra e responder a diversas questões relacionadas ao negócio. Para alcançar esse objetivo, serão utilizadas diversas técnicas de análise de dados, incluindo a segmentação de clientes e análise de associação.
 
-### Sobre os Dados
+**Perguntas que serão respondidas:**
+* Quais são os produtos mais vendidos?
+* Quais são os produtos que são geralmente comprados juntos?
+* Qual é o valor médio de cada compra?
+* Quais são os clientes mais valiosos em termos de valor de vida útil (LTV) e padrões de compra?
+* Qual é a taxa de recompra dos clientes?
+* Quais são as preferências de compra dos clientes?
+* Como as vendas variam ao longo do tempo?
+* Como as vendas variam de acordo com a localização geográfica?
+* Como o preço afeta o comportamento de compra dos clientes?
+* Quais são as tendências de compra ao longo do tempo?
 
-#### Fonte dos Dados
-
-Wallmart Sales Data: https://www.kaggle.com/datasets/divyajeetthakur/walmart-sales-prediction
-
-
-#### Metadados
+---
