@@ -37,8 +37,6 @@ Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/datasets/ol
 ---
 
 ## **Análise 01:  Análise de Comportamento de Compra de Consumidores do E-commerce Brasileiro**
-### Introdução
-
 **Objetivo:**<br>
 A finalidade desta análise é examinar os dados dos consumidores do E-commerce brasileiro Olist, com o intuito de identificar os padrões de comportamento de compra e responder a diversas questões relacionadas ao negócio. Para alcançar esse objetivo, serão utilizadas diversas técnicas de análise de dados, incluindo a segmentação de clientes e análise de associação.
 
