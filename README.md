@@ -1,7 +1,8 @@
-# **Projeto de Análise de dados de vendas do Wallmart**  
-Análise desenvolvida por: **Natália Oliveira**
+![](https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud5/media/image/fiercehealthcare/1570117826/shutterstock_1150637408.jpg?VersionId=eQO_ILyCwnuh4UhRlRtpBc_hEkQh3ueJ)
 
----
+# **Projeto de Análise de dados de vendas do Wallmart**  
+<sub>Análise desenvolvida por: **Natália Oliveira**</sub>
+
 
 ## **Introdução**
 
