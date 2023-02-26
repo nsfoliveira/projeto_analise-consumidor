@@ -1,4 +1,4 @@
-# **Projeto: E-commerce Olist **
+# **Projeto: E-commerce Olist**
 <sub>Projeto desenvolvida por: **Natália Oliveira**</sub>
 
 ## Sobre o projeto:
@@ -7,17 +7,39 @@ O objetivo deste projeto é executar uma série de análises nos dados da plataf
 ## Sobre os dados:
 Os dados disponíveis são de comércio eletrônico brasileiro feitos na loja Olist, contendo informações de 100 mil pedidos de 2016 a 2018, incluindo status do pedido, preço, pagamento, desempenho de frete, localização do cliente, atributos do produto e revisões escritas pelos clientes. Os dados são reais, mas foram anonimizados e as referências às empresas e parceiros foram substituídas por nomes de casas da série Game of Thrones. Também há um conjunto de dados de geolocalização que relaciona os códigos postais brasileiros às coordenadas LAT/LNG.
 
-### Fonte dos Dados
+### Fonte dos Dados:
 
 Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/code?select=olist_geolocation_dataset.csv
 
-### Esquema dos dados
+### Esquema dos dados:
 ![](https://i.imgur.com/HRhd2Y0.png)
+
+### Metadados:
+**olist_orders_dataset.csv**
+* **order_id:** identificador único do pedido;
+* **customer_id:** identificador único do cliente;
+* **order_status:** status do pedido;
+* **order_purchase_timestamp:** data e hora do pedido;
+* **order_approved_at:** data e hora da aprovação do pagamento;
+* **order_delivered_carrier_date:** data e hora de quando o pedido foi entregue ao parceiro logístico;
+* **order_delivered_customer_date:** data e hora real da entregua do pedido ao cliente;
+* **order_estimated_delivery_date:** data estimada de entrega informada ao cliente.
+
+**olist_customers_dataset.csv**<br>
+**olist_geolocation_dataset.csv**<br>
+**olist_order_items_dataset.csv**<br>
+**olist_order_payments_dataset.csv**<br>
+**olist_order_reviews_dataset.csv**<br>
+**olist_products_dataset.csv**<br>
+**olist_sellers_dataset.csv**<br>
+**product_category_name_translation.csv**<br>
+
+---
 
 ## **Análise 01:  Analisando os Consumidores**
 ### Introdução
 
-**Objetivo**
+**Objetivo:**<br>
 A finalidade desta análise é examinar os dados dos consumidores do E-commerce brasileiro Olist, com o intuito de identificar os padrões de comportamento de compra e responder a diversas questões relacionadas ao negócio. Para alcançar esse objetivo, serão utilizadas diversas técnicas de análise de dados, incluindo a segmentação de clientes e análise de associação.
 
 **Perguntas que serão respondidas:**
