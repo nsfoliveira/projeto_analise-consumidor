@@ -36,7 +36,7 @@ Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/datasets/ol
 
 ---
 
-## **Análise 01:  Analisando os Consumidores**
+## **Análise 01:  Análise de Comportamento de Compra de Consumidores do E-commerce Brasileiro**
 ### Introdução
 
 **Objetivo:**<br>
