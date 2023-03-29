@@ -25,9 +25,29 @@ Brazilian E-Commerce Public Dataset by Olist: https://www.kaggle.com/datasets/ol
 * **order_delivered_customer_date:** data e hora real da entregua do pedido ao cliente;
 * **order_estimated_delivery_date:** data estimada de entrega informada ao cliente.
 
-**olist_customers_dataset.csv**<br>
-**olist_geolocation_dataset.csv**<br>
-**olist_order_items_dataset.csv**<br>
+**olist_customers_dataset.csv**
+* **custumer_id:** chave para o conjunto de dados de pedidos. Cada pedido tem um customer_id único.
+* **customer_unique_id:** identificador exclusivo de um cliente.
+* **customer_zip_code_prefix:** primeiros cinco dígitos do CEP do cliente
+* **customer_city:** nome da cidade do cliente
+* **customer_state:** estado do cliente
+
+**olist_geolocation_dataset.csv**
+* **geolocation_zip_code_prefix:** primeiros 5 dígitos do CEP
+* **geolocation_lat:** latitude
+* **geolocation_lng:** longitude
+* **geolocation_city:** nome da vidade
+* **geolocation_state:** estado
+
+**olist_order_items_dataset.csv**<
+* **order_id:** identificador exclusivo do pedido
+* **order_item_id:** número sequencial que identifica o número de itens incluídos na mesma ordem.
+* **product_id:** identificador exclusivo do produto
+* **seller_id:** identificador exclusivo do vendedor
+* **shipping_limit_date:** Mostra a data limite de envio do vendedor para lidar com o pedido para o parceiro logístico.
+* **price:** preço do item
+* **freight_value:** item freight value item (se um pedido tiver mais de um item, o valor do frete será dividido entre itens)
+
 **olist_order_payments_dataset.csv**<br>
 **olist_order_reviews_dataset.csv**<br>
 **olist_products_dataset.csv**<br>
